@@ -1,0 +1,37 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:TestCard": {
+  "NAME": "Bash Up",
+  "DESCRIPTION": "Bash !D! NL Block !B!",
+  "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+  "EXTENDED_DESCRIPTION": [
+    "You can put more text in here.",
+    "If you need to use it for stuff.",
+    "Blizzard is a good example for this."
+  ]
+  },"${modID}:ManyTap": {
+  "NAME": "Many Tap",
+  "DESCRIPTION": "Deal !D! Damage to the enemy NL 5 times"
+  },"${modID}:GetReady": {
+  "NAME": "Get Ready",
+  "DESCRIPTION": "Gain !M! Strength NL Exhaust"
+  },"${modID}:Kratata": {
+  "NAME": "Kratata",
+  "DESCRIPTION": "Strike ALL enemies for !D!,repeat !M! times"
+  },"${modID}:EnoughWeakness": {
+  "NAME": "Enough Weakness",
+  "DESCRIPTION": "Gain !M! Demon Form Equal to your Debuffs"
+  },"${modID}:UnrelentingAttack": {
+  "NAME": "Unrelenting Attack",
+  "DESCRIPTION": "Deal !D! damagae to a random enemy for every me there are in your deck"
+}
+}
