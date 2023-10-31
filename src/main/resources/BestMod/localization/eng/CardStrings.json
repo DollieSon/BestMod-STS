@@ -11,13 +11,7 @@
   },
   "${modID}:TestCard": {
   "NAME": "Bash Up",
-  "DESCRIPTION": "Bash !D! NL Block !B!",
-  "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
-  "EXTENDED_DESCRIPTION": [
-    "You can put more text in here.",
-    "If you need to use it for stuff.",
-    "Blizzard is a good example for this."
-  ]
+  "DESCRIPTION": "Bash !D! NL Block !B!"
   },"${modID}:ManyTap": {
   "NAME": "Many Tap",
   "DESCRIPTION": "Deal !D! Damage to the enemy NL 5 times"
@@ -33,5 +27,36 @@
   },"${modID}:UnrelentingAttack": {
   "NAME": "Unrelenting Attack",
   "DESCRIPTION": "Deal !D! damagae to a random enemy for every me there are in your deck"
+  },"${modID}:Spit": {
+  "NAME": "Spit",
+  "DESCRIPTION": "Deal !D! damage NL Gain !M! weakness"
+  },"${modID}:StackingStrike": {
+  "NAME": "Stacking Strike",
+  "DESCRIPTION": "Deal !D! Damage NL Gain !M! Strength"
+  },"${modID}:ReverseHeal": {
+  "NAME": "Reverse Heal",
+  "DESCRIPTION": "Lose 4 hp NL Deal !D! damage !M! times"
+  },"${modID}:BulkTrain": {
+  "NAME": "Bulk Train",
+  "DESCRIPTION": "Gain !M! Strength NL Increase this by 1 this combat",
+  "UPGRADE_DESCRIPTION": "Gain !M! NL Increase this by 2 this combat"
+  },"${modID}:Retaliate": {
+  "NAME": "Retaliate",
+  "DESCRIPTION": "Dead !D! Damage NL Gain !M! Energy if you have a debuff"
+  },"${modID}:Stroid": {
+  "NAME": "Str-oid",
+  "DESCRIPTION": "Gain !M! Strength NL Loose 10 Strength next turn"
+  },"${modID}:MyTurn": {
+  "NAME": "My Turn",
+  "DESCRIPTION": "Gain !B! Block NL Exhaust."
+  },"${modID}:OffenseIsDefense": {
+  "NAME": "Offense Is Defense",
+  "DESCRIPTION": "Gain Metallicize Equal to !M!% of your Strength"
+  },"${modID}:BloodShield": {
+  "NAME": "Blood Shield",
+  "DESCRIPTION": "Lose 3 Hp NL Gain !B! Block"
+},"${modID}:DevilsDeal": {
+  "NAME": "Devil's Deal",
+  "DESCRIPTION": "Lose 10 Hp NL Gain !M! Demon Form"
 }
 }
