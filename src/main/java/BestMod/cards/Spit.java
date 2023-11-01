@@ -19,8 +19,8 @@ public class Spit extends BaseCard{
             CardTarget.ENEMY,
             1
     );
-    public static final int DAMAGE = 10;
-    public static final int UPG_DAMAGE = 5;
+    public static final int DAMAGE = 15;
+    public static final int UPG_DAMAGE = 10;
 
     public Spit(){
         super(ID,info);

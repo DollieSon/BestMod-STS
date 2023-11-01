@@ -6,7 +6,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class MyTurn extends BaseCard{
-    public static final String ID = makeID(Stroid.class.getSimpleName());
+    public static final String ID = makeID(MyTurn.class.getSimpleName());
     public static final CardStats info = new CardStats(
             CardColor.RED,
             CardType.SKILL,

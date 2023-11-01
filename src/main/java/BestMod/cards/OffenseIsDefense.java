@@ -25,7 +25,7 @@ public class OffenseIsDefense extends BaseCard{
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        int MetalAmt = p.getPower("Strength").amount * (this.magicNumber/100);
+        int MetalAmt = (int) (p.getPower("Strength").amount * (this.magicNumber/100.0));
         addToBot(new ApplyPowerAction(p,p,new MetallicizePower(p,MetalAmt),MetalAmt));
     }
     public void upgrade() {

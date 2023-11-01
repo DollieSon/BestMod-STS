@@ -34,11 +34,4 @@ public class BulkTrain extends BaseCard{
         }
     }
 
-    public void upgrade() {
-        if (!this.upgraded) {
-            this.upgradeName();
-            this.initializeDescription();
-        }
-    }
-
 }

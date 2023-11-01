@@ -13,11 +13,11 @@ public class BloodShield extends BaseCard {
             AbstractCard.CardColor.RED,
             AbstractCard.CardType.SKILL,
             AbstractCard.CardRarity.COMMON,
-            AbstractCard.CardTarget.ENEMY,
+            AbstractCard.CardTarget.NONE,
             1
     );
-    public static final int BLOCK = 9;
-    public static final int UPG_BLOCK = 9;
+    public static final int BLOCK = 15;
+    public static final int UPG_BLOCK = 11;
     public BloodShield(){
         super(ID,info);
         setBlock(BLOCK,UPG_BLOCK);

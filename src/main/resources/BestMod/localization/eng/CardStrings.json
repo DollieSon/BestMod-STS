@@ -48,8 +48,9 @@
   "DESCRIPTION": "Gain !M! Strength NL Loose 10 Strength next turn"
   },"${modID}:MyTurn": {
   "NAME": "My Turn",
-  "DESCRIPTION": "Gain !B! Block NL Exhaust."
-  },"${modID}:OffenseIsDefense": {
+  "DESCRIPTION": "Gain !B! Block NL Exhaust.",
+  "UPGRADE_DESCRIPTION": "Innate NL Gain !B! Block NL Exhaust."
+},"${modID}:OffenseIsDefense": {
   "NAME": "Offense Is Defense",
   "DESCRIPTION": "Gain Metallicize Equal to !M!% of your Strength"
   },"${modID}:BloodShield": {
@@ -58,5 +59,49 @@
 },"${modID}:DevilsDeal": {
   "NAME": "Devil's Deal",
   "DESCRIPTION": "Lose 10 Hp NL Gain !M! Demon Form"
-}
+  },"${modID}:Slip": {
+  "NAME": "Slip",
+  "DESCRIPTION": "Give !M! vulnerable to ALL Enemies NL Draw !${modID}:Draw"
+  },"${modID}:OilSplash": {
+  "NAME": "OilSplash",
+  "DESCRIPTION": "Deal !D! Damage NL Upgrade a searing blow in your deck",
+  "UPGRADE_DESCRIPTION": "Deal !D! Damage NL Upgrade a searing blow in your deck TWICE"
+  },"${modID}:LowerYourselves": {
+  "NAME": "Lower Yourselves!",
+  "DESCRIPTION": "Give !M! vulnerable to ALL Enemies NL Give !M! weak to ALL Enemies"
+  },"${modID}:ICanDoThisAllDay": {
+    "NAME": "I Can Do This All Day",
+    "DESCRIPTION": "Gain 1 Mana per Enemy in Battle"
+  },"${modID}:DevilsDance": {
+  "NAME": "Devil's Dance",
+  "DESCRIPTION": "Gain 1 Demon Form NL Gain !M! Vulnerable and Weak"
+  },"${modID}:NotTodayButTomorrow": {
+  "NAME": "Not Today But Tomorrow",
+  "DESCRIPTION": "Lose All Strength NL Gain 1 Demon Form per 5 lost NL (Max !M!)"
+},"${modID}:PowerIsDefense": {
+  "NAME": "Power Is Defense",
+  "DESCRIPTION": "Lose AtMost !M! Strength NL Gain 5 Block per Strength Lost"
+  },"${modID}:SetStrike": {
+  "NAME": "Set Strike",
+  "DESCRIPTION": "Deal !D! Damage NL Create !M! copies of Me in your Draw Pile"
+  },"${modID}:FinishingStrike": {
+  "NAME": "Finishing Strike",
+  "DESCRIPTION": "Deal !D! Damage NL Repeat For Every Strike In Your Deck"
+  },"${modID}:ShieldStrike": {
+  "NAME": "Shield Strike",
+  "DESCRIPTION": "Deal !D! Damage NL Gain !B! Block"
+},"${modID}:CleansingStrike": {
+  "NAME": "Cleansning Strike",
+  "DESCRIPTION": "Remove !M! Weak From Yourself NL Deal !D! Damage"
+},"${modID}:FinalStrike": {
+  "NAME": "Final Strike",
+  "DESCRIPTION": "Exhaust NL Deal !D! Damage NL Gain !M! Energy if Fatal",
+  "UPGRADE_DESCRIPTION": "Exhaust NL Deal !D! Damage NL Gain !M! Energy if Fatal"
+  },"${modID}:RecklessStrike": {
+  "NAME": "Reckless Strikes",
+  "DESCRIPTION": "Gain 5 Poison NL Deal !D! Damage"
+  },"${modID}:AllStrikeNoDefense": {
+  "NAME": "All Strike No Defense",
+  "DESCRIPTION": "Gain 3 Frail NL Deal !D! Damage"
+  }
 }

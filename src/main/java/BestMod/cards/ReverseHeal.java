@@ -19,8 +19,8 @@ public class ReverseHeal extends BaseCard{
     );
     public static final int DAMAGE = 3;
     public static final int UPG_DAMAGE = 2;
-    public static final int MULT_ATTACK = 2;
-    public static final int UPG_MULT_ATTACK = 2;
+    public static final int MULT_ATTACK = 3;
+    public static final int UPG_MULT_ATTACK = 3;
     public ReverseHeal(){
         super(ID,info);
         setDamage(DAMAGE,UPG_DAMAGE);
