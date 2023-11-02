@@ -34,7 +34,7 @@ public class Kratata extends BaseCard{
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         for(int x =0; x<this.magicNumber;x++){
-            addToBot(new DamageAllEnemiesAction(p,this.multiDamage,this.damageTypeForTurn, AbstractGameAction.AttackEffect.NONE));
+            addToBot(new DamageAllEnemiesAction(p,this.multiDamage,this.damageTypeForTurn, AbstractGameAction.AttackEffect.BLUNT_LIGHT));
         }
     }
 

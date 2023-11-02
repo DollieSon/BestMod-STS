@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.UUID;
 
 public class ModifyMagicNumberAction extends AbstractGameAction {
-    private UUID uuid;
+    private final UUID uuid;
 
     public ModifyMagicNumberAction(UUID targetUUID, int amount){
         this.setValues(this.target,this.source,amount);
@@ -17,10 +17,10 @@ public class ModifyMagicNumberAction extends AbstractGameAction {
     }
 
     public void update() {
-        Iterator var1 = GetAllInBattleInstances.get(this.uuid).iterator();
+        Iterator<AbstractCard> var1 = GetAllInBattleInstances.get(this.uuid).iterator();
 
         while(var1.hasNext()) {
-            AbstractCard c = (AbstractCard)var1.next();
+            AbstractCard c = var1.next();
             c.magicNumber += this.amount;
         }
         this.isDone = true;

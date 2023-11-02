@@ -29,14 +29,15 @@ public class NotTodayButTomorrow extends BaseCard{
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        int amt = p.getPower(StrengthPower.POWER_ID).amount;
-        int var1 = amt/5;
-        if(var1 > this.magicNumber){
-            var1 = this.magicNumber;
+        if(p.hasPower(StrengthPower.POWER_ID)){
+            int amt = p.getPower(StrengthPower.POWER_ID).amount;
+            int var1 = amt/5;
+            if(var1 > this.magicNumber){
+                var1 = this.magicNumber;
+            }
+            addToBot(new ReducePowerAction(p,p,StrengthPower.NAME,var1 * 5));
+            addToBot(new ApplyPowerAction(p, p, new DemonFormPower(p, var1), var1));
         }
-        //p.getPower(StrengthPower.POWER_ID).amount = amt -
-        addToBot(new ReducePowerAction(p,p,StrengthPower.NAME,var1 * 5));
-        addToBot(new ApplyPowerAction(p, p, new DemonFormPower(p, var1), var1));
     }
 
 

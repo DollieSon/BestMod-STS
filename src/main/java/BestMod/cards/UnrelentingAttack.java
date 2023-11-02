@@ -20,8 +20,8 @@ public class UnrelentingAttack extends BaseCard{
             CardTarget.ENEMY,
             1
     );
-    public static final int DAMAGE = 3;
-    public static final int UPG_DAMAGE = 2;
+    public static final int DAMAGE = 7;
+    public static final int UPG_DAMAGE = 3;
 
     public UnrelentingAttack(){
         super(ID,info);

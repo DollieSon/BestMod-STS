@@ -25,7 +25,7 @@ public class Spit extends BaseCard{
     public Spit(){
         super(ID,info);
         setDamage(DAMAGE,UPG_DAMAGE);
-        this.magicNumber = this.baseMagicNumber = 4;
+        this.magicNumber = this.baseMagicNumber = 2;
     }
 
     @Override

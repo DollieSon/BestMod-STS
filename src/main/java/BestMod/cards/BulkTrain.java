@@ -28,9 +28,9 @@ public class BulkTrain extends BaseCard{
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new ApplyPowerAction(p,p,new StrengthPower(p,this.magicNumber),this.magicNumber));
         if(this.upgraded){
-            addToBot(new ModifyMagicNumberAction(this.uuid,1));
+            magicNumber+=1;
         }else{
-            addToBot(new ModifyMagicNumberAction(this.uuid,2));
+            magicNumber+=2;
         }
     }
 

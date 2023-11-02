@@ -58,10 +58,10 @@
   "DESCRIPTION": "Lose 3 Hp NL Gain !B! Block"
 },"${modID}:DevilsDeal": {
   "NAME": "Devil's Deal",
-  "DESCRIPTION": "Lose 10 Hp NL Gain !M! Demon Form"
+  "DESCRIPTION": "Lose 5 Hp NL Gain !M! Demon Form"
   },"${modID}:Slip": {
   "NAME": "Slip",
-  "DESCRIPTION": "Give !M! vulnerable to ALL Enemies NL Draw !${modID}:Draw"
+  "DESCRIPTION": "Give !M! vulnerable to ALL Enemies NL Draw !BestMod:Draw"
   },"${modID}:OilSplash": {
   "NAME": "OilSplash",
   "DESCRIPTION": "Deal !D! Damage NL Upgrade a searing blow in your deck",
@@ -103,5 +103,8 @@
   },"${modID}:AllStrikeNoDefense": {
   "NAME": "All Strike No Defense",
   "DESCRIPTION": "Gain 3 Frail NL Deal !D! Damage"
+  },"${modID}:WeaponsDown": {
+  "NAME": "Weapons Down",
+  "DESCRIPTION": "EVERYONE loses !M! Strength"
   }
 }

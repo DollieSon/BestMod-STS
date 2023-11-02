@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.MetallicizePower;
+import com.megacrit.cardcrawl.powers.StrengthPower;
 
 public class OffenseIsDefense extends BaseCard{
     public static final String ID = makeID(OffenseIsDefense.class.getSimpleName());
@@ -25,8 +26,10 @@ public class OffenseIsDefense extends BaseCard{
     }
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        int MetalAmt = (int) (p.getPower("Strength").amount * (this.magicNumber/100.0));
-        addToBot(new ApplyPowerAction(p,p,new MetallicizePower(p,MetalAmt),MetalAmt));
+        if(p.hasPower(StrengthPower.NAME)){
+            int MetalAmt = (int) (p.getPower("Strength").amount * (this.magicNumber/100.0));
+            addToBot(new ApplyPowerAction(p,p,new MetallicizePower(p,MetalAmt),MetalAmt));
+        }
     }
     public void upgrade() {
         if (!this.upgraded) {

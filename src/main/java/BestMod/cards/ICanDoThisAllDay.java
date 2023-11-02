@@ -28,12 +28,7 @@ public class ICanDoThisAllDay extends BaseCard{
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        int Amount = 0;
-        Iterator var3 = AbstractDungeon.getCurrRoom().monsters.monsters.iterator();
-        while(var3.hasNext()){
-            var3.next();
-            Amount++;
-        }
+        int Amount = AbstractDungeon.getCurrRoom().monsters.monsters.size();
         addToBot(new GainEnergyAction(Amount));
     }
 }

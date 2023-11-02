@@ -27,7 +27,7 @@ public class DevilsDeal extends BaseCard{
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new LoseHPAction(p,p,10));
+        addToBot(new LoseHPAction(p,p,5));
         this.addToBot(new ApplyPowerAction(p, p, new DemonFormPower(p, this.magicNumber), this.magicNumber));
 
     }

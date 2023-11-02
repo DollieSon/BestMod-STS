@@ -21,7 +21,7 @@ public class Retaliate extends BaseCard{
     public static final int DAMAGE = 6;
     public static final int MAGIC_NUMBER = 1;
 
-    public static final int UPG_MAGIC_NUMBER = 1;
+    public static final int UPG_MAGIC_NUMBER = 2;
 
     public Retaliate(){
         super(ID,info);
