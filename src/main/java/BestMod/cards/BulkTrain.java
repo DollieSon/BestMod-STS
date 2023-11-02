@@ -22,16 +22,13 @@ public class BulkTrain extends BaseCard{
     public BulkTrain(){
         super(ID,info);
         setMagic(MAGIC_NUMBER,UPG_MAGIC_NUMBER);
+        setCustomVar("Increase",1,1);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new ApplyPowerAction(p,p,new StrengthPower(p,this.magicNumber),this.magicNumber));
-        if(this.upgraded){
-            magicNumber+=1;
-        }else{
-            magicNumber+=2;
-        }
+        addToBot(new ModifyMagicNumberAction(this.uuid,customVar("Increase")));
     }
 
 }

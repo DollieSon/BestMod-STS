@@ -22,6 +22,7 @@ public class ModifyMagicNumberAction extends AbstractGameAction {
         while(var1.hasNext()) {
             AbstractCard c = var1.next();
             c.magicNumber += this.amount;
+            System.out.println(c.magicNumber);
         }
         this.isDone = true;
     }

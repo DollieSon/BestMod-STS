@@ -106,5 +106,29 @@
   },"${modID}:WeaponsDown": {
   "NAME": "Weapons Down",
   "DESCRIPTION": "EVERYONE loses !M! Strength"
-  }
+  },"${modID}:IEatFear": {
+  "NAME": "I Eat Fear",
+  "DESCRIPTION": "Absorb and Convert Vulnerable into Strength NL 1 Strength/ !M! Vulnerable "
+},"${modID}:PoisonStrike": {
+  "NAME": "Poison Strike",
+  "DESCRIPTION": "Apply !D! Poison NL Scales With Strength"
+},"${modID}:PowerNow": {
+  "NAME": "Power Now!",
+  "DESCRIPTION": "Convert all Demon Form into !M! Strength"
+},"${modID}:PowerIsMoney": {
+  "NAME": "Power Is Money",
+  "DESCRIPTION": "Convert !M! Strength into !BestMod:Money! Gold"
+},"${modID}:CoverFace": {
+  "NAME": "Cover Face",
+  "DESCRIPTION": "Lose 3 Strength NL Gain !B! Block"
+},"${modID}:AllOrNothing": {
+  "NAME": "AllOrNothing",
+  "DESCRIPTION": "Gain !M! Strength NL Deal !D! Damage NL Lose !BestMod:Rebutal! Strength"
+},"${modID}:HealthOverPower": {
+  "NAME": "Health Over Power",
+  "DESCRIPTION": "Lose !M! Strength NL Cleanse All Debuffs"
+},"${modID}:SlashAndYoink": {
+  "NAME": "Slash And Yoink",
+  "DESCRIPTION": "Deal !D! Damage NL Draw !M! Cards If Fatal"
+}
 }
